@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient( rgb(241, 187, 241), rgb(160, 233, 243));
+
+}
+
+.cabecalho{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(167, 7, 167);
+}
+
+.info{
+    width: 600px;
+    margin: 50px auto 0;
+    box-shadow: 15px;
+}
+
+
+#nome, #sobrenome, #email, #date, #aplicacao, #experiência{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+   
+}
+
+#botao{
+    text-align: center;
+}
+
+.bot{
+    color:rgb(121, 22, 121);
+    border: 1px solid purple;
+}
+
+
+
+
+ 

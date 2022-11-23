@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+
+    <title>Document</title>
+
+    
+
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>cadastro para dev's</h1>
+        <p>complete suas informações</p>
+    </div>
+
+    <div>
+        <form action="#" method="post" class="info">
+            <label><strong>Nome</strong> <input type="text" name="nome" id="nome" required>
+            </label>
+
+            <label><strong>Sobrenome</strong> <input type="text"  name="sobrenome" id="sobrenome" required>
+            </label>
+
+            <label><strong>Email</strong> <input type="email" name="email" id="email" required>
+            </label>
+            <br>
+            <label id="date"><strong>Data de Nascimento</strong> <input type="date" value="Data de Nascimento" required></label>
+            <br>
+        <div>
+            <label id="aplicacao" required><strong>Qual aplicação você desenvolve?</strong></label>
+            <br>
+
+            <label><input type="radio" name="frontend" id="frontend">Front-end</label>
+            <br>
+            <label><input type="radio" name="Backend" id="Backend">Back-end </label>
+            <br>
+            <label><input type="radio" name="FULLSTACK" id="FULLSTACK">Fullstack </label>
+            
+        </div>
+        <br>
+        <div>
+            <label ><strong>Senioridade </strong></label>
+            <select required>
+                <option value="0">Selecione</option>
+                <option>Júnior</option>
+                <option>Pleno</option>
+                <option>Sênior</option>
+            </select>
+        </div>
+        <br>
+        <div >
+            <label><strong>Selecione as tecnologias que utiliza:</strong></label><br>
+            <label><input type="radio" name="html" required> HTML</label>
+            <label><input type="radio" name="css"> CSS</label>
+            <label><input type="radio" name="javascript"> JAVASCRIPT</label>
+            <label><input type="radio" name="c#"> C#</label>
+            <label><input type="radio" name="php">PHP </label>
+            <label><input type="radio" name="java"> JAVA</label>
+            <label><input type="radio" name="python"> PYTHON</label>
+        </div>
+        <br>
+
+        <label><strong>Fale mais sobre você:</strong></label>
+        <textarea row="6" style="width: 26em ;" id="experiência" required></textarea>
+        <br>
+        <div id="botao">
+            <label>
+                <input style="background-color: rgb(241, 187, 241);;" type="submit" value="ENVIAR" class="bot">
+            </label>
+        </div>
+        
+           
+        </form>
+    </div>
+</body>
+</html>
